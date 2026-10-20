@@ -23,7 +23,7 @@ export default function Footer() {
               امانی نرم‌افزارهای سازمانی، زیرساخت ابری و هوش مصنوعی در ایران است. کلیه معاملات و
               لایسنس‌ها تحت پروتکل داوری و حساب امانی تضمین می‌شوند.
             </p>
-            <div className="flex items-center gap-3 pt-2 text-xs text-on-surface-variant">
+            <div className="flex flex-wrap items-center gap-3 pt-2 text-xs text-on-surface-variant">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high border border-outline-variant/30 font-medium">
                 <span className="w-2 h-2 rounded-full bg-secondary"></span>
                 پایگاه داده زنده Neon Postgres
@@ -101,12 +101,17 @@ export default function Footer() {
                   میز نظارت و داوری حل اختلاف
                 </Link>
               </li>
+              <li>
+                <Link href="/sitemap" className="hover:text-primary font-bold transition-colors">
+                  نقشه کامل معماری سامانه (Sitemap)
+                </Link>
+              </li>
             </ul>
           </div>
 
           {/* Trust & Escrow Column */}
           <div className="space-y-3">
-            <h4 className="text-sm font-bold text-on-surface">اعتبار و امنیت</h4>
+            <h4 className="text-sm font-bold text-on-surface">اعتبار و حساب کاربری</h4>
             <div className="p-4 rounded-2xl bg-white border border-outline-variant/40 space-y-3">
               <div className="flex items-center gap-2 text-xs font-bold text-secondary">
                 <span className="material-symbols-outlined text-[18px]">verified</span>
@@ -116,9 +121,14 @@ export default function Footer() {
                 مبلغ پیش‌فاکتور تا زمان استقرار موفق و تایید کارشناس خریدار در حساب امانی اکومارکت
                 مسدود می‌ماند.
               </p>
-              <div className="text-[10px] text-outline border-t border-outline-variant/30 pt-2 flex items-center justify-between">
-                <span>تضمین استرداد ۱۰۰٪ وجه</span>
-                <span className="font-mono text-primary">SLA Guaranteed</span>
+              <div className="border-t border-outline-variant/30 pt-3">
+                <Link
+                  href="/login"
+                  className="w-full py-2 px-3 rounded-xl bg-primary text-on-primary text-xs font-bold flex items-center justify-center gap-1.5 hover:bg-primary-container transition-all"
+                >
+                  <span className="material-symbols-outlined text-[16px]">key</span>
+                  <span>ورود / اطلاعات حساب‌های کاربری</span>
+                </Link>
               </div>
             </div>
           </div>
@@ -127,10 +137,14 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-on-surface-variant">
           <p>© ۲۰۲۶ اکومارکت (EchoMarket) — تمامی حقوق برای پلتفرم نرم‌افزارهای سازمانی محفوظ است.</p>
-          <div className="flex items-center gap-6">
-            <span className="text-outline">طراحی منطبق بر Stitch Design System</span>
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6">
+            <Link href="/sitemap" className="text-primary font-bold hover:underline">
+              نقشه سایت
+            </Link>
             <span className="text-outline">•</span>
-            <span className="text-outline">دیتابیس ابری Neon Serverless Postgres</span>
+            <span className="text-outline">طراحی بر پایه Stitch Design System</span>
+            <span className="text-outline">•</span>
+            <span className="text-outline">دیتابیس ابری Neon Postgres</span>
             <span className="text-outline">•</span>
             <span className="text-outline">هاستینگ Vercel Edge</span>
           </div>

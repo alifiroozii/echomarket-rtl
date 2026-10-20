@@ -16,6 +16,7 @@ export default function Header() {
     { href: '/vendor/dashboard', label: 'پنل ارائه‌دهندگان' },
     { href: '/buyer/portal', label: 'کارتابل خریدار' },
     { href: '/admin', label: 'میز نظارت ادمین' },
+    { href: '/sitemap', label: 'نقشه سایت' },
   ];
 
   const categories = [
@@ -106,7 +107,7 @@ export default function Header() {
           })}
         </nav>
 
-        {/* Left Side: Search + CTA + Notifications + Profile */}
+        {/* Left Side: Search + CTA + Login / Profile */}
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           <Link
             href="/explore"
@@ -130,21 +131,18 @@ export default function Header() {
 
           <div className="h-6 w-px bg-outline-variant/40 hidden sm:block"></div>
 
-          {/* User profile capsule */}
+          {/* Login / Profile Capsule */}
           <Link
-            href="/buyer/portal"
-            className="flex items-center gap-2 pl-1 pr-2 py-1 rounded-xl bg-surface-container-low/60 hover:bg-surface-container border border-outline-variant/30 transition-all cursor-pointer"
+            href="/login"
+            className="flex items-center gap-2 pl-2 pr-3 py-1.5 rounded-xl bg-surface-container-low hover:bg-surface-container border border-outline-variant/30 transition-all cursor-pointer"
           >
-            <div className="relative">
-              <div className="w-8 h-8 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center font-bold text-primary text-xs">
-                س‌ر
-              </div>
-              <span className="absolute bottom-0 right-0 w-2 h-2 rounded-full bg-secondary ring-2 ring-white"></span>
+            <div className="w-7 h-7 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center font-bold text-primary text-xs">
+              <span className="material-symbols-outlined text-[16px]">person</span>
             </div>
             <div className="hidden md:flex flex-col text-right">
-              <span className="text-xs text-on-surface font-bold leading-tight">سامان راد</span>
-              <span className="text-[10px] text-on-surface-variant leading-none mt-0.5">
-                شرکت فناوری
+              <span className="text-xs text-on-surface font-bold leading-tight">ورود / حساب</span>
+              <span className="text-[10px] text-secondary leading-none mt-0.5 font-semibold">
+                اطلاعات کاربری
               </span>
             </div>
           </Link>
@@ -176,18 +174,14 @@ export default function Header() {
             </Link>
           ))}
           <div className="pt-2 border-t border-outline-variant/30">
-            <div className="text-[11px] font-bold text-outline px-3 py-1">دسته‌بندی‌ها</div>
-            {categories.map((cat) => (
-              <Link
-                key={cat.href}
-                href={cat.href}
-                onClick={() => setMobileMenuOpen(false)}
-                className="flex items-center gap-2 px-3 py-2 text-xs text-on-surface-variant hover:text-primary"
-              >
-                <span className="material-symbols-outlined text-[18px] text-primary">{cat.icon}</span>
-                <span>{cat.label}</span>
-              </Link>
-            ))}
+            <Link
+              href="/login"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-2 px-3 py-2 rounded-xl bg-primary text-on-primary text-xs font-bold"
+            >
+              <span className="material-symbols-outlined text-[18px]">login</span>
+              <span>ورود سازمانی و نام‌های کاربری تست</span>
+            </Link>
           </div>
         </div>
       )}
