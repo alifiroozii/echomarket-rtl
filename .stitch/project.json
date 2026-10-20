@@ -1,0 +1,339 @@
+{
+  "createTime": "2026-10-19T20:23:56.663467Z",
+  "designTheme": {
+    "bodyFontFamily": "Vazirmatn",
+    "colorMode": "LIGHT",
+    "colorVariant": "FIDELITY",
+    "customColor": "#2563eb",
+    "designMd": "---\nname: Persian Enterprise Marketplace\ncolors:\n  surface: '#faf8ff'\n  surface-dim: '#d2d9f4'\n  surface-bright: '#faf8ff'\n  surface-container-lowest: '#ffffff'\n  surface-container-low: '#f2f3ff'\n  surface-container: '#eaedff'\n  surface-container-high: '#e2e7ff'\n  surface-container-highest: '#dae2fd'\n  on-surface: '#131b2e'\n  on-surface-variant: '#434655'\n  inverse-surface: '#283044'\n  inverse-on-surface: '#eef0ff'\n  outline: '#737686'\n  outline-variant: '#c3c6d7'\n  surface-tint: '#0053db'\n  primary: '#004ac6'\n  on-primary: '#ffffff'\n  primary-container: '#2563eb'\n  on-primary-container: '#eeefff'\n  inverse-primary: '#b4c5ff'\n  secondary: '#006a61'\n  on-secondary: '#ffffff'\n  secondary-container: '#86f2e4'\n  on-secondary-container: '#006f66'\n  tertiary: '#6a1edb'\n  on-tertiary: '#ffffff'\n  tertiary-container: '#8343f4'\n  on-tertiary-container: '#f7edff'\n  error: '#ba1a1a'\n  on-error: '#ffffff'\n  error-container: '#ffdad6'\n  on-error-container: '#93000a'\n  primary-fixed: '#dbe1ff'\n  primary-fixed-dim: '#b4c5ff'\n  on-primary-fixed: '#00174b'\n  on-primary-fixed-variant: '#003ea8'\n  secondary-fixed: '#89f5e7'\n  secondary-fixed-dim: '#6bd8cb'\n  on-secondary-fixed: '#00201d'\n  on-secondary-fixed-variant: '#005049'\n  tertiary-fixed: '#eaddff'\n  tertiary-fixed-dim: '#d2bbff'\n  on-tertiary-fixed: '#25005a'\n  on-tertiary-fixed-variant: '#5a00c6'\n  background: '#faf8ff'\n  on-background: '#131b2e'\n  surface-variant: '#dae2fd'\ntypography:\n  display-hero:\n    fontFamily: Vazirmatn\n    fontSize: 40px\n    fontWeight: '800'\n    lineHeight: 64px\n    letterSpacing: -0.02em\n  display-hero-mobile:\n    fontFamily: Vazirmatn\n    fontSize: 28px\n    fontWeight: '800'\n    lineHeight: 44px\n    letterSpacing: -0.01em\n  headline-lg:\n    fontFamily: Vazirmatn\n    fontSize: 30px\n    fontWeight: '700'\n    lineHeight: 48px\n    letterSpacing: -0.01em\n  headline-lg-mobile:\n    fontFamily: Vazirmatn\n    fontSize: 22px\n    fontWeight: '700'\n    lineHeight: 36px\n    letterSpacing: '0'\n  headline-md:\n    fontFamily: Vazirmatn\n    fontSize: 22px\n    fontWeight: '700'\n    lineHeight: 36px\n  headline-sm:\n    fontFamily: Vazirmatn\n    fontSize: 18px\n    fontWeight: '600'\n    lineHeight: 30px\n  title-md:\n    fontFamily: Vazirmatn\n    fontSize: 16px\n    fontWeight: '600'\n    lineHeight: 26px\n  body-lg:\n    fontFamily: Vazirmatn\n    fontSize: 16px\n    fontWeight: '400'\n    lineHeight: 28px\n  body-md:\n    fontFamily: Vazirmatn\n    fontSize: 14px\n    fontWeight: '400'\n    lineHeight: 24px\n  body-sm:\n    fontFamily: Vazirmatn\n    fontSize: 12px\n    fontWeight: '400'\n    lineHeight: 20px\n  label-lg:\n    fontFamily: Vazirmatn\n    fontSize: 14px\n    fontWeight: '600'\n    lineHeight: 22px\n  label-md:\n    fontFamily: Vazirmatn\n    fontSize: 12px\n    fontWeight: '500'\n    lineHeight: 18px\n  label-sm:\n    fontFamily: Vazirmatn\n    fontSize: 11px\n    fontWeight: '500'\n    lineHeight: 16px\n  numeric-metric:\n    fontFamily: Vazirmatn\n    fontSize: 24px\n    fontWeight: '700'\n    lineHeight: 34px\nrounded:\n  sm: 0.25rem\n  DEFAULT: 0.5rem\n  md: 0.75rem\n  lg: 1rem\n  xl: 1.5rem\n  full: 9999px\nspacing:\n  gutter: 1.5rem\n  gutter-sm: 1rem\n  gutter-lg: 2rem\n  margin: 1.5rem\n  margin-sm: 1rem\n  margin-lg: 3rem\n  space-xs: 0.25rem\n  space-sm: 0.5rem\n  space-md: 1rem\n  space-lg: 1.5rem\n  space-xl: 2.5rem\n  space-2xl: 4rem\n---\n\n## Brand & Style\n\nThis design system delivers an enterprise-grade B2B/B2C marketplace tailored for high-trust technology procurement, SaaS distributions, and technical vendor ecosystems in the Persian-speaking market. The aesthetic blends **Modern Corporate SaaS** rigor with frictionless marketplace discovery.\n\n### Target Audience & Psychology\n- **Audience:** CTOs, enterprise procurement officers, Iranian tech founders, and software vendors seeking vetted cloud, API, AI, and enterprise software solutions.\n- **Tone:** Authoritative, pristine, technologically advanced, and scrupulously transparent.\n- **Emotional Impact:** Immediate operational clarity, transactional confidence, institutional stability, and contemporary digital fluency.\n\n### Stylistic Directives\n- **Strict Light Mode Philosophy:** Grounded exclusively in radiant white (`#FFFFFF`) planes against cool slate surfaces (`#F8FAFC`, `#F1F5F9`). Dark mode is intentionally omitted to maintain strict corporate document-like legibility and high contrast.\n- **RTL-First Spatial Harmony:** Native bidirectional architecture (`dir=\"rtl\"`) with natural rightward scanning anchors, mirrored visual iconography, contextual back/forward navigation, and deliberate Persian typographical balance.\n- **Structural Precision:** Clean 1px architectural boundary lines, layered atmospheric depth, modular content chunks, and purposeful data density.\n\n## Colors\n\nThe palette establishes an unshakeable enterprise presence, utilizing deep technical indigos paired with functional innovation accents and rigorous status indicators.\n\n### Key Tokens & Functional Mapping\n- **Primary Anchor (`#2563EB` / `#1E3A8A`):** Anchors core calls to action, high-priority navigation links, primary tabs, and platform-wide interactive focus boundaries.\n- **Secondary Accent (`#0D9488`):** Denotes technological intelligence, autonomous systems, AI integration labels, verified solution guarantees, and active feature toggles.\n- **Tertiary Accent (`#7C3AED`):** Reserved for elite tier vendor tiers, enterprise SLA indicators, and featured technological showcases.\n- **Highlight Warm Amber (`#D97706`):** Dedicated to verified customer satisfaction ratings, review counts, escrow notices, and promotional tags.\n\n### Surfaces & Neutrals\n- **Canvas Base:** `#F8FAFC` (Slate 50) - Subtle backdrop that separates structural panels.\n- **Surface Layer (Cards, Modals):** `#FFFFFF` (Pure White) - Elevates data readability.\n- **Secondary Surface:** `#F1F5F9` (Slate 100) - Segmented controls, input wells, and table header rows.\n- **Structural Borders:** `#E2E8F0` (Slate 200) - Refined 1px dividers and card boundaries.\n- **Text Headings:** `#0F172A` (Slate 900) - Uncompromising contrast for Persian script clarity.\n- **Text Body:** `#334155` (Slate 700) - Sustained legibility across multi-paragraph documentation.\n- **Text Muted & Labels:** `#64748B` (Slate 500) - Clear metadata, breadcrumbs, and placeholder guidance.\n\n### System Feedback States\n- **Success / Published:** `#059669` (Surface: `#ECFDF5`, Border: `#A7F3D0`)\n- **Warning / Review:** `#D97706` (Surface: `#FFFBEB`, Border: `#FDE68A`)\n- **Error / Rejected:** `#DC2626` (Surface: `#FEF2F2`, Border: `#FECACA`)\n- **Informational / Draft:** `#0284C7` (Surface: `#F0F9FF`, Border: `#BAE6FD`)\n\n## Typography\n\nThe typography stack relies exclusively on `Vazirmatn`, the standard for contemporary, highly legible Persian screen typography.\n\n### Typographic Principles for Persian RTL\n- **Elevated Vertical Metrics:** Persian glyphs exhibit substantial ascender and descender sweeps compared to Latin alphabets. Line heights are kept strictly between `1.6` and `1.8` across long-form content to avert glyph collisions and optical congestion.\n- **Numeral Rendering:** Pricing metrics, vendor SLAs, and tabular values must enforce Eastern Arabic/Persian glyphs (`۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹`) alongside standard financial suffixes (تومان / ریال), retaining numeric flow natively within RTL reading vectors.\n- **Hierarchy & Weights:** Avoid light font weights (`< 400`) in UI elements due to subpixel rendering degradation in complex Perso-Arabic curves. Core interface anchors use `600` (SemiBold) and `700` (Bold), preserving legibility at micro sizes.\n\n## Layout & Spacing\n\nA strictly proportional, responsive 8-point base grid structure engineered for dense marketplace inventory, multi-layered filtering, and technical specification comparison matrices.\n\n### Breakpoint Matrix\n- **Mobile (< 768px):** 4-column layout, `1rem` margins, stacked filter sheets, full-width transactional CTAs.\n- **Tablet (768px - 1023px):** 8-column layout, `1.5rem` margins, collapsible off-canvas filter rails, 2-column solution grids.\n- **Desktop (1024px - 1439px):** 12-column layout, `2rem` margins, fixed 280px right-hand filtration sidebar, 3-column product cards.\n- **Wide Display (≥ 1440px):** 12-column bounded canvas (max-width: 1400px centered), `3rem` margins, 4-column product matrix.\n\n### RTL Flow & Structural Alignment\n- Content origins start strictly on the **right edge**. Margins flow naturally inward from right to left.\n- Interactive navigation paths (breadcrumbs, stepped wizards, sequential workflows) cascade from right to left. Chevron transitions and icon pointers point leftwards (`ChevronLeft`) to represent forward progression.\n\n## Elevation & Depth\n\nVisual hierarchy uses a refined layering system composed of cool-slate tinted shadows, subtle borders, and pristine white surfaces to produce tactile elevation without heavy dark planes.\n\n### Layer Hierarchy\n- **Level 0 (Flat / Canvas):** `#F8FAFC` base background. Zero elevation.\n- **Level 1 (Structural Cards / Panels):** Pure white `#FFFFFF` surface with `1px solid #E2E8F0` and `box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04), 0 1px 2px -1px rgba(15, 23, 42, 0.03)`.\n- **Level 2 (Hover State / Elevated Modules):** Triggered on card hover or active workspace cards: `box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.06), 0 4px 6px -4px rgba(15, 23, 42, 0.03)` accompanied by a subtle border shift to `#CBD5E1`.\n- **Level 3 (Dropdowns / Flyout Filters / Tooltips):** `box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04)` with `1px solid #E2E8F0`.\n- **Level 4 (Modals / Checkout Sheets):** Backdrop blur `backdrop-filter: blur(4px)` over `rgba(15, 23, 42, 0.35)` with `box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.20)`.\n\n## Shapes\n\nThe design system maintains a modern, balanced curvature standard (`Level 2 - Rounded`). This gives software components an approachable, polished silhouette while keeping the structural rigidity required for high-density enterprise interfaces.\n\n### Curvature Tokens\n- **Micro Radii (`0.375rem` / `6px`):** Checkboxes, radio outer rings, subtle micro badges, and inner table cells.\n- **Standard Radii (`0.5rem` / `8px`):** Input fields, standard buttons, dropdown selectors, metadata pill containers.\n- **Component Radii (`0.75rem` / `12px`):** Product cards, modular containers, analytics summaries, side panels.\n- **Overlay Radii (`1rem` / `16px`):** Dialog modals, bottom drawer sheets, mega menus.\n- **Pill Radius (`9999px`):** Interactive tag filters, live status indicators, counter badges.\n\n## Components\n\n### Buttons\n- **Primary:** Background `#2563EB`, text `#FFFFFF`, font-weight `600`. Hover: `#1D4ED8`, active: `#1E40AF`. Subtle inner highlight border. Loading state replaces text with a spinner positioned adjacent to right-hand button labels.\n- **Secondary / Subtle:** Background `#FFFFFF`, text `#0F172A`, border `1px solid #E2E8F0`. Hover: `#F8FAFC`, border color `#CBD5E1`.\n- **Accent AI / Innovation:** Background `#0D9488`, text `#FFFFFF`. Hover: `#0F766E`.\n- **Destructive:** Background `#FEF2F2`, text `#DC2626`, border `1px solid #FECACA`. Hover: `#FEE2E2`.\n\n### Cards & Marketplace Solution Tiles\n- **Default Structure:** Background `#FFFFFF`, border `1px solid #E2E8F0`, corner radius `12px`. Padding: `1.25rem`.\n- **Header Slot:** Right-aligned vendor logo (48x48px, rounded 8px), vendor title, and verified check badge. Left-aligned pricing unit in Persian numerals.\n- **Hover Micro-Elevation:** Smooth 200ms ease transition: translateY(-2px), border color shifts to `#93C5FD`, shadow transitions from Level 1 to Level 2.\n\n### Search Inputs & Tag Filtration\n- **Omni-Search Bar:** Minimum height `48px`, background `#FFFFFF`, border `1px solid #CBD5E1`, padded icon slot on the right (`Search`), keyboard shortcut cue on the left (`Ctrl + K`).\n- **Active Filter Chips:** Removable pills with subtle slate tint (`#F1F5F9`), text `#334155`, font size `12px`. Close cross icon positioned on the left side of the chip (following RTL reading direction).\n\n### Status Badges\n- **Shape & Dimensions:** Height `24px`, padding `0 10px`, rounded `9999px`, font-size `12px`, font-weight `500`.\n- **Published / Verified:** Green text `#065F46`, background `#ECFDF5`, border `1px solid #A7F3D0`. Includes a 6px solid green dot right-aligned before the text.\n- **Under Review:** Amber text `#92400E`, background `#FFFBEB`, border `1px solid #FDE68A`.\n- **Draft:** Slate text `#475569`, background `#F1F5F9`, border `1px solid #E2E8F0`.\n\n### Form Controls (RTL-Engineered)\n- **Inputs & Selects:** Text right-aligned, placeholder right-aligned with `#94A3B8`. Helper text right-aligned below input. Focus state: ring `2px solid rgba(37, 99, 235, 0.2)` and border `#2563EB`.\n- **Checkboxes & Radios:** Placed to the right of the associated descriptive label, with an `8px` left margin separating the control from text.",
+    "headlineFontFamily": "Vazirmatn",
+    "labelFontFamily": "Vazirmatn",
+    "namedColors": {
+      "background": "#faf8ff",
+      "error": "#ba1a1a",
+      "error_container": "#ffdad6",
+      "inverse_on_surface": "#eef0ff",
+      "inverse_primary": "#b4c5ff",
+      "inverse_surface": "#283044",
+      "on_background": "#131b2e",
+      "on_error": "#ffffff",
+      "on_error_container": "#93000a",
+      "on_primary": "#ffffff",
+      "on_primary_container": "#eeefff",
+      "on_primary_fixed": "#00174b",
+      "on_primary_fixed_variant": "#003ea8",
+      "on_secondary": "#ffffff",
+      "on_secondary_container": "#006f66",
+      "on_secondary_fixed": "#00201d",
+      "on_secondary_fixed_variant": "#005049",
+      "on_surface": "#131b2e",
+      "on_surface_variant": "#434655",
+      "on_tertiary": "#ffffff",
+      "on_tertiary_container": "#f7edff",
+      "on_tertiary_fixed": "#25005a",
+      "on_tertiary_fixed_variant": "#5a00c6",
+      "outline": "#737686",
+      "outline_variant": "#c3c6d7",
+      "primary": "#004ac6",
+      "primary_container": "#2563eb",
+      "primary_fixed": "#dbe1ff",
+      "primary_fixed_dim": "#b4c5ff",
+      "secondary": "#006a61",
+      "secondary_container": "#86f2e4",
+      "secondary_fixed": "#89f5e7",
+      "secondary_fixed_dim": "#6bd8cb",
+      "surface": "#faf8ff",
+      "surface_bright": "#faf8ff",
+      "surface_container": "#eaedff",
+      "surface_container_high": "#e2e7ff",
+      "surface_container_highest": "#dae2fd",
+      "surface_container_low": "#f2f3ff",
+      "surface_container_lowest": "#ffffff",
+      "surface_dim": "#d2d9f4",
+      "surface_tint": "#0053db",
+      "surface_variant": "#dae2fd",
+      "tertiary": "#6a1edb",
+      "tertiary_container": "#8343f4",
+      "tertiary_fixed": "#eaddff",
+      "tertiary_fixed_dim": "#d2bbff"
+    },
+    "overrideNeutralColor": "#0f172a",
+    "overridePrimaryColor": "#2563eb",
+    "overrideSecondaryColor": "#0d9488",
+    "overrideTertiaryColor": "#7c3aed",
+    "roundness": "ROUND_EIGHT",
+    "spacing": {
+      "gutter": "1.5rem",
+      "gutter-lg": "2rem",
+      "gutter-sm": "1rem",
+      "margin": "1.5rem",
+      "margin-lg": "3rem",
+      "margin-sm": "1rem",
+      "space-2xl": "4rem",
+      "space-lg": "1.5rem",
+      "space-md": "1rem",
+      "space-sm": "0.5rem",
+      "space-xl": "2.5rem",
+      "space-xs": "0.25rem"
+    },
+    "spacingScale": 2,
+    "typography": {
+      "body-lg": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "28px"
+      },
+      "body-md": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "24px"
+      },
+      "body-sm": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "20px"
+      },
+      "display-hero": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "40px",
+        "fontWeight": "800",
+        "letterSpacing": "-0.02em",
+        "lineHeight": "64px"
+      },
+      "display-hero-mobile": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "28px",
+        "fontWeight": "800",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "44px"
+      },
+      "headline-lg": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "48px"
+      },
+      "headline-lg-mobile": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "letterSpacing": "0",
+        "lineHeight": "36px"
+      },
+      "headline-md": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "lineHeight": "36px"
+      },
+      "headline-sm": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "lineHeight": "30px"
+      },
+      "label-lg": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "22px"
+      },
+      "label-md": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "lineHeight": "18px"
+      },
+      "label-sm": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "11px",
+        "fontWeight": "500",
+        "lineHeight": "16px"
+      },
+      "numeric-metric": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "24px",
+        "fontWeight": "700",
+        "lineHeight": "34px"
+      },
+      "title-md": {
+        "fontFamily": "Vazirmatn",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "26px"
+      }
+    }
+  },
+  "deviceType": "DESKTOP",
+  "metadata": {
+    "userRole": "OWNER"
+  },
+  "name": "projects/3994600731962201114",
+  "origin": "STITCH",
+  "projectType": "TEXT_TO_UI_PRO",
+  "screenInstances": [
+    {
+      "height": 1359,
+      "hidden": true,
+      "id": "19e181689bce4ec8a442ee8fc65128f8",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/19e181689bce4ec8a442ee8fc65128f8",
+      "width": 1280,
+      "x": 4032,
+      "y": 15727
+    },
+    {
+      "height": 2272,
+      "id": "253b38b920524d878f1c6631c166b565",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/253b38b920524d878f1c6631c166b565",
+      "width": 1280,
+      "x": 2688,
+      "y": 23054
+    },
+    {
+      "height": 1425,
+      "id": "45ddd878142b4d29bc857864ea56b21d",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/45ddd878142b4d29bc857864ea56b21d",
+      "width": 1280,
+      "x": 4161,
+      "y": 15554
+    },
+    {
+      "height": 2090,
+      "id": "5b55f2af48f14b32a59814ec18780b97",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/5b55f2af48f14b32a59814ec18780b97",
+      "width": 1280,
+      "y": 13380
+    },
+    {
+      "height": 2608,
+      "id": "5c5d11cd90ec4c44928277622db04e1c",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/5c5d11cd90ec4c44928277622db04e1c",
+      "width": 1280,
+      "x": 1344,
+      "y": 15727
+    },
+    {
+      "height": 5463,
+      "id": "66d83ff33337439db282cc0788693e08",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/66d83ff33337439db282cc0788693e08",
+      "width": 1280,
+      "y": 7661
+    },
+    {
+      "height": 1616,
+      "id": "7c4dd4e2bbbe4d9b9b31348d86366bbf",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/7c4dd4e2bbbe4d9b9b31348d86366bbf",
+      "width": 1280,
+      "y": 23054
+    },
+    {
+      "height": 1733,
+      "id": "87bbd3fddb7349ffbeec763a40598cbf",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/87bbd3fddb7349ffbeec763a40598cbf",
+      "width": 1280,
+      "x": 1344,
+      "y": 23054
+    },
+    {
+      "height": 1844,
+      "id": "917145470b25416593c23319c6400f01",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/917145470b25416593c23319c6400f01",
+      "width": 1280,
+      "y": 20645
+    },
+    {
+      "height": 1676,
+      "id": "a393cce8506143348eebbc78fbb9a00a",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/a393cce8506143348eebbc78fbb9a00a",
+      "width": 1280,
+      "y": 25582
+    },
+    {
+      "height": 1057,
+      "id": "ac2d61b428e04e73b9b8eca2a3cdcbae",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/ac2d61b428e04e73b9b8eca2a3cdcbae",
+      "width": 1280,
+      "x": 2688,
+      "y": 15727
+    },
+    {
+      "height": 540,
+      "id": "assets_15d0e04759f044b1b09479be40914485",
+      "sourceAsset": "assets/15d0e04759f044b1b09479be40914485",
+      "type": "DESIGN_SYSTEM_INSTANCE",
+      "width": 960
+    },
+    {
+      "height": 7405,
+      "id": "b65da42ed7b14df489d876c3e10951af",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/b65da42ed7b14df489d876c3e10951af",
+      "width": 1280,
+      "x": 1024
+    },
+    {
+      "height": 2710,
+      "id": "c15f6fe8dfd649b68fc9255dc305669b",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/c15f6fe8dfd649b68fc9255dc305669b",
+      "width": 1280,
+      "y": 15727
+    },
+    {
+      "height": 1946,
+      "id": "c64d8bf2bde048c6b455271492056f16",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/c64d8bf2bde048c6b455271492056f16",
+      "width": 1280,
+      "x": 1344,
+      "y": 20645
+    },
+    {
+      "height": 3318,
+      "id": "c6cd282d29ed4221b746e8000245ab68",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/c6cd282d29ed4221b746e8000245ab68",
+      "width": 1280,
+      "y": 27514
+    },
+    {
+      "height": 1599,
+      "id": "dd30c4db4bc243c183c34b8ec8d02fc0",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/dd30c4db4bc243c183c34b8ec8d02fc0",
+      "width": 1280,
+      "y": 18694
+    },
+    {
+      "height": 2153,
+      "id": "dec7c785799b444db11aed216bb28a64",
+      "label": "Generating Screen...",
+      "sourceScreen": "projects/3994600731962201114/screens/dec7c785799b444db11aed216bb28a64",
+      "width": 1280,
+      "x": 2688,
+      "y": 20645
+    }
+  ],
+  "thumbnailScreenshot": {
+    "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WagoGyQqRMWiLSS_T6_wyqPAENwgcDHD_IYPcn85-IwmAUCmAj0M2sDM4UmDho_O-rrX_jwfZp1lmcgcvm1a67cL0exsdrvO9Wo6ieMAn061sJ0VkXeZ8NQY50o1b0-kJWbBWtel9sd71HZPLlU7p4rsoTwkGanbotCkaNBi99e_MooBRYYtTp170UqgftP6sjF56Id2d__nlKlpYMjYS516FlUH7XxjppdIRkJexm4XXkdk-0SZn3JuI",
+    "name": "projects/3994600731962201114/screens/b65da42ed7b14df489d876c3e10951af/fileEntries/screenshot"
+  },
+  "title": "EchoMarket RTL Design System",
+  "updateTime": "2026-10-20T05:36:39.719561Z",
+  "visibility": "PRIVATE"
+}

@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="fa" style=""><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-error-container":"#93000a","on-primary":"#ffffff","tertiary-fixed-dim":"#d2bbff","on-primary-container":"#eeefff","on-surface":"#131b2e","tertiary-container":"#8343f4","secondary-fixed-dim":"#6bd8cb","on-primary-fixed-variant":"#003ea8","surface-variant":"#dae2fd","on-background":"#131b2e","on-tertiary-container":"#f7edff","on-secondary-fixed":"#00201d","surface-container":"#eaedff","on-surface-variant":"#434655","surface-container-lowest":"#ffffff","on-error":"#ffffff","surface-container-highest":"#dae2fd","inverse-surface":"#283044","surface-container-high":"#e2e7ff","outline":"#737686","background":"#faf8ff","tertiary-fixed":"#eaddff","secondary-fixed":"#89f5e7","tertiary":"#6a1edb","primary":"#004ac6","primary-fixed-dim":"#b4c5ff","on-tertiary":"#ffffff","on-secondary-container":"#006f66","secondary-container":"#86f2e4","surface-bright":"#faf8ff","surface-container-low":"#f2f3ff","primary-fixed":"#dbe1ff","surface-dim":"#d2d9f4","surface-tint":"#0053db","on-secondary":"#ffffff","surface":"#faf8ff","error-container":"#ffdad6","primary-container":"#2563eb","outline-variant":"#c3c6d7","inverse-on-surface":"#eef0ff","on-primary-fixed":"#00174b","inverse-primary":"#b4c5ff","on-tertiary-fixed":"#25005a","error":"#ba1a1a","on-tertiary-fixed-variant":"#5a00c6","secondary":"#006a61","on-secondary-fixed-variant":"#005049"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-lg":"1.5rem","gutter":"1.5rem","space-md":"1rem","margin-lg":"3rem","margin-sm":"1rem","margin":"1.5rem","space-sm":"0.5rem","space-xs":"0.25rem","gutter-sm":"1rem","gutter-lg":"2rem","space-2xl":"4rem","space-xl":"2.5rem"},"fontFamily":{"headline-sm":["Vazirmatn"],"numeric-metric":["Vazirmatn"],"body-lg":["Vazirmatn"],"label-md":["Vazirmatn"],"label-lg":["Vazirmatn"],"display-hero":["Vazirmatn"],"display-hero-mobile":["Vazirmatn"],"title-md":["Vazirmatn"],"headline-lg-mobile":["Vazirmatn"],"headline-lg":["Vazirmatn"],"body-sm":["Vazirmatn"],"headline-md":["Vazirmatn"],"label-sm":["Vazirmatn"],"body-md":["Vazirmatn"]},"fontSize":{"headline-sm":["18px",{"lineHeight":"30px","fontWeight":"600"}],"numeric-metric":["24px",{"lineHeight":"34px","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"28px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"18px","fontWeight":"500"}],"label-lg":["14px",{"lineHeight":"22px","fontWeight":"600"}],"display-hero":["40px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"800"}],"display-hero-mobile":["28px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"800"}],"title-md":["16px",{"lineHeight":"26px","fontWeight":"600"}],"headline-lg-mobile":["22px",{"lineHeight":"36px","letterSpacing":"0","fontWeight":"700"}],"headline-lg":["30px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-sm":["12px",{"lineHeight":"20px","fontWeight":"400"}],"headline-md":["22px",{"lineHeight":"36px","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"16px","fontWeight":"500"}],"body-md":["14px",{"lineHeight":"24px","fontWeight":"400"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased"><aside class="fixed right-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between py-space-lg"><div class="flex flex-col"><div class="px-space-lg mb-space-xl flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-xl bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[22px]">shield_person</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary font-bold">اکومارکت</span><span class="font-label-sm text-label-sm text-outline">میز ناظر سامانه</span></div></div><span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">مدیر ارشد</span></div><nav class="px-space-md flex flex-col gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-xl"><a class="flex items-center gap-space-sm px-space-md py-3 rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-label-lg text-label-lg" data-path="admin-review-queue" href="#"><span class="material-symbols-outlined text-[20px]">fact_check</span><span>صف بازبینی محصولات</span></a><a class="flex items-center gap-space-sm px-space-md py-3 rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-label-lg text-label-lg" data-path="vendor-management" href="#"><span class="material-symbols-outlined text-[20px]">corporate_fare</span><span>مدیریت تأمین‌کنندگان</span></a><a class="flex items-center gap-space-sm px-space-md py-3 rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-label-lg text-label-lg" data-path="team-rbac-management" href="#"><span class="material-symbols-outlined text-[20px]">admin_panel_settings</span><span>مدیریت تیم و دسترسی‌ها (RBAC)</span></a><a class="flex items-center gap-space-sm px-space-md py-3 rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-label-lg text-label-lg" data-path="audit-logs" href="#"><span class="material-symbols-outlined text-[20px]">receipt_long</span><span>گزارشات و لاگ حسابرسی</span></a><a class="flex items-center gap-space-sm px-space-md py-3 rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-label-lg text-label-lg" data-path="compliance-security" href="#"><span class="material-symbols-outlined text-[20px]">verified_user</span><span>انطباق استانداردهای SLA</span></a><a class="flex items-center gap-space-sm px-space-md py-3 rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-label-lg text-label-lg" data-path="marketplace-explore" href="#"><span class="material-symbols-outlined text-[20px]">storefront</span><span>مشاهده ویترین مارکت</span></a></nav></div><div class="px-space-md flex flex-col gap-space-sm"><div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs"><div class="flex items-center justify-between"><span class="font-label-md text-label-md text-on-surface font-semibold">وضعیت نودهای اعتبارسنجی</span><span class="w-2.5 h-2.5 rounded-full bg-secondary"></span></div><span class="font-body-sm text-body-sm text-outline">تمام سرویس‌های امنیتی عملیاتی هستند</span></div><a class="flex items-center gap-space-sm px-space-md py-2.5 rounded-xl text-error hover:bg-error-container/20 transition-colors font-label-lg text-label-lg" data-path="auth-login" href="#"><span class="material-symbols-outlined text-[20px]">logout</span><span>خروج از حساب</span></a></div></aside><div class="pr-72"><header class="fixed top-0 right-72 left-0 h-16 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-gutter"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm"><span class="material-symbols-outlined text-[18px] text-outline">security</span><span>محیط مدیریت راهکارهای سازمانی اکومارکت</span></div></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs px-space-md py-1.5 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md"><span class="material-symbols-outlined text-[18px] text-primary">pending_actions</span><span>۹ مورد در صف تایید نهایی</span></div><button class="p-2 rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors relative" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-error"></span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="relative pt-16 w-full px-gutter py-space-lg bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Dynamic Gradient Ambient Backdrop (strictly contained) -->
+<div class="relative w-full">
+<div class="absolute -top-10 right-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-20 left-10 w-80 h-80 bg-secondary/5 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- 1. Header & Primary Enterprise Actions -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md mb-space-lg">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold">
+            پنل راهبری سازمان (Enterprise Governance)
+          </span>
+<span class="w-1.5 h-1.5 rounded-full bg-outline-variant"></span>
+<span class="font-label-sm text-label-sm text-outline">هلدینگ فناوری‌های نوین داده‌پرداز</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          مدیریت اعضای سازمان، نقش‌ها و ماتریس دسترسی (RBAC)
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-4xl">
+          پیکربندی ساختار دسترسی کارمندان، تعریف نقش‌های سفارشی سازمانی، ممیزی نشست‌های فعال و اعمال سیاست‌های احراز هویت دو مرحله‌ای (2FA/SSO).
+        </p>
+</div>
+<!-- Action Buttons -->
+<div class="flex flex-wrap items-center gap-space-sm self-start lg:self-auto">
+<button class="flex items-center gap-space-xs px-space-md py-2.5 rounded-xl bg-surface-container-lowest text-on-surface font-label-lg text-label-lg shadow-sm hover:bg-surface-container-low transition-all" type="button">
+<span class="material-symbols-outlined text-[19px] text-outline">file_download</span>
+<span>خروجی ماتریس ممیزی (Excel/PDF)</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-2.5 rounded-xl bg-surface-container-lowest text-on-surface font-label-lg text-label-lg shadow-sm hover:bg-surface-container-low transition-all" type="button">
+<span class="material-symbols-outlined text-[19px] text-tertiary">security</span>
+<span>تعریف نقش سفارشی جدید</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-2.5 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg shadow-md hover:bg-primary/90 transition-all" id="btnInviteMember" type="button">
+<span class="material-symbols-outlined text-[20px]">person_add</span>
+<span>+ دعوت عضو جدید به تیم</span>
+</button>
+</div>
+</div>
+<!-- 2. KPI Cards & Telemetry Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-space-md mb-space-lg">
+<!-- Card 1: Active Users -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute -left-6 -bottom-6 w-24 h-24 bg-primary/5 rounded-full pointer-events-none group-hover:scale-125 transition-transform"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">کل اعضای فعال سازمان</span>
+<span class="p-2 rounded-xl bg-primary-fixed text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">group</span>
+</span>
+</div>
+<div class="flex items-baseline gap-space-xs mb-space-xs">
+<span class="font-numeric-metric text-numeric-metric text-on-surface">۲۸</span>
+<span class="font-body-sm text-body-sm text-outline">کاربر مجاز</span>
+</div>
+<div class="flex items-center justify-between pt-space-xs text-on-surface-variant">
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+            لایسنس Enterprise (نامحدود)
+          </span>
+<span class="font-label-sm text-label-sm text-outline">۴ دعوت در انتظار</span>
+</div>
+</div>
+<!-- Card 2: Roles Matrix -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute -left-6 -bottom-6 w-24 h-24 bg-tertiary/5 rounded-full pointer-events-none group-hover:scale-125 transition-transform"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">نقش‌های فعال سازمانی</span>
+<span class="p-2 rounded-xl bg-tertiary-fixed text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">badge</span>
+</span>
+</div>
+<div class="flex items-baseline gap-space-xs mb-space-xs">
+<span class="font-numeric-metric text-numeric-metric text-on-surface">۸</span>
+<span class="font-body-sm text-body-sm text-outline">پروفایل مجزا</span>
+</div>
+<div class="flex items-center gap-space-xs pt-space-xs">
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+            ۶ پیش‌فرض
+          </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-tertiary font-label-sm text-label-sm font-semibold">
+            ۲ نقش سفارشی سازمانی
+          </span>
+</div>
+</div>
+<!-- Card 3: 2FA Compliance -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute -left-6 -bottom-6 w-24 h-24 bg-secondary/5 rounded-full pointer-events-none group-hover:scale-125 transition-transform"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">انطباق امنیتی احراز هویت</span>
+<span class="p-2 rounded-xl bg-secondary-fixed text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">lock_person</span>
+</span>
+</div>
+<div class="flex items-baseline gap-space-xs mb-space-xs">
+<span class="font-numeric-metric text-numeric-metric text-secondary font-bold">۹۶٪</span>
+<span class="font-body-sm text-body-sm text-secondary font-medium">پوشش 2FA</span>
+</div>
+<div class="w-full bg-surface-container-low h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 96%"></div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-medium flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+            سطح امنیت بسیار بالا
+          </span>
+<span class="font-label-sm text-label-sm text-outline">۱ کاربر غیرمنطبق</span>
+</div>
+</div>
+<!-- Card 4: Active Sessions -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute -left-6 -bottom-6 w-24 h-24 bg-primary/5 rounded-full pointer-events-none group-hover:scale-125 transition-transform"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">نشست‌های فعال همزمان</span>
+<span class="p-2 rounded-xl bg-surface-container text-on-surface flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">devices</span>
+</span>
+</div>
+<div class="flex items-baseline gap-space-xs mb-space-xs">
+<span class="font-numeric-metric text-numeric-metric text-on-surface">۱۸</span>
+<span class="font-body-sm text-body-sm text-outline">جلسه برخط (Online)</span>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+            شبکه داخلی HQ و VPN امن
+          </span>
+<span class="font-label-sm text-label-sm text-primary hover:underline cursor-pointer">مدیریت سشن‌ها</span>
+</div>
+</div>
+</div>
+<!-- 3. Sub-navigation Tabs -->
+<div class="flex items-center justify-between overflow-x-auto bg-surface-container-lowest p-1.5 rounded-xl shadow-sm mb-space-md">
+<div class="flex items-center gap-space-xs">
+<button class="flex items-center gap-space-xs px-space-md py-2 rounded-lg bg-primary-container text-on-primary-container font-label-lg text-label-lg transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-[19px]">group</span>
+<span>اعضای تیم و کاربران (Users List)</span>
+<span class="px-2 py-0.2 rounded-full bg-white/20 text-on-primary-container font-label-sm text-label-sm">۲۸</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-label-lg text-label-lg" type="button">
+<span class="material-symbols-outlined text-[19px]">grid_view</span>
+<span>نقش‌ها و ماتریس مجوزها (Permissions Matrix)</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-label-lg text-label-lg" type="button">
+<span class="material-symbols-outlined text-[19px]">domain_verification</span>
+<span>سیاست‌های امنیتی و اتصال SSO / Active Directory</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-label-lg text-label-lg" type="button">
+<span class="material-symbols-outlined text-[19px]">history</span>
+<span>لاگ‌های ممیزی دسترسی و تغییر مجوزها (Audit Trail)</span>
+</button>
+</div>
+<div class="hidden md:flex items-center gap-space-xs text-outline font-label-sm text-label-sm pl-space-sm">
+<span class="material-symbols-outlined text-[16px]">sync</span>
+<span>همگام‌سازی لحظه‌ای با SAML2 Active Directory</span>
+</div>
+</div>
+<!-- 4. Filter Toolbar -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm mb-space-md flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-space-md">
+<!-- Search Input -->
+<div class="relative flex-1 min-w-[280px]">
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
+<input class="w-full pr-10 pl-20 py-2.5 bg-surface-container-low rounded-xl text-on-surface placeholder:text-outline font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary/20" placeholder="جستجوی کاربر با نام، ایمیل سازمانی یا شماره پرسنلی..." type="text"/>
+<span class="absolute left-3 top-1/2 -translate-y-1/2 px-1.5 py-0.5 rounded bg-surface-container text-outline font-label-sm text-label-sm pointer-events-none">
+          Ctrl + K
+        </span>
+</div>
+<!-- Dropdown Selectors -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- Department Filter -->
+<div class="relative min-w-[170px]">
+<select class="w-full appearance-none pr-space-md pl-8 py-2.5 bg-surface-container-low rounded-xl text-on-surface font-label-md text-label-md focus:outline-none focus:ring-2 focus:ring-primary/20 cursor-pointer">
+<option value="">دپارتمان: همه واحدها</option>
+<option value="tech">فناوری اطلاعات و توسعه</option>
+<option value="procurement">تدارکات و بازرگانی</option>
+<option value="finance">امور مالی و حسابداری</option>
+<option value="legal">حقوقی و قراردادها</option>
+</select>
+<span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-outline pointer-events-none text-[18px]">expand_more</span>
+</div>
+<!-- Role Filter -->
+<div class="relative min-w-[170px]">
+<select class="w-full appearance-none pr-space-md pl-8 py-2.5 bg-surface-container-low rounded-xl text-on-surface font-label-md text-label-md focus:outline-none focus:ring-2 focus:ring-primary/20 cursor-pointer">
+<option value="">نقش: همه نقش‌ها</option>
+<option value="admin">مدیر سیستم (System Admin)</option>
+<option value="rfq">کارشناس استعلام (RFQ Specialist)</option>
+<option value="approver">تاییدکننده نهایی پرداخت</option>
+<option value="auditor">ناظر ممیزی و بازرسی</option>
+</select>
+<span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-outline pointer-events-none text-[18px]">expand_more</span>
+</div>
+<!-- Status Filter -->
+<div class="relative min-w-[140px]">
+<select class="w-full appearance-none pr-space-md pl-8 py-2.5 bg-surface-container-low rounded-xl text-on-surface font-label-md text-label-md focus:outline-none focus:ring-2 focus:ring-primary/20 cursor-pointer">
+<option value="">وضعیت: همه</option>
+<option value="active">فعال</option>
+<option value="suspended">تعلیق موقت</option>
+<option value="pending">در انتظار تایید دعوت</option>
+</select>
+<span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-outline pointer-events-none text-[18px]">expand_more</span>
+</div>
+<!-- Reset Button -->
+<button class="p-2.5 rounded-xl text-outline hover:text-on-surface hover:bg-surface-container-low transition-colors" title="پاکسازی فیلترها" type="button">
+<span class="material-symbols-outlined text-[20px]">filter_alt_off</span>
+</button>
+</div>
+</div>
+<!-- 5. Main Layout Split: Users Data Table & Live RBAC Inspector -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-lg mb-space-lg items-start">
+<!-- Users Table Panel (8 Columns) -->
+<div class="xl:col-span-8 bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<div class="px-space-md py-space-sm bg-surface-container-low/60 flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="font-title-md text-title-md text-on-surface">فهرست اعضای تیم و کارشناسان دسترسی</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">نمایش ۶ از ۲۸</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="p-1 rounded text-outline hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">view_column</span>
+</button>
+<button class="p-1 rounded text-outline hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">refresh</span>
+</button>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-right border-collapse">
+<thead>
+<tr class="bg-surface-container-low/40 text-on-surface-variant font-label-md text-label-md">
+<th class="py-3 px-space-md">عضو سازمانی</th>
+<th class="py-3 px-space-md">واحد سازمانی</th>
+<th class="py-3 px-space-md">نقش سیستمی (RBAC)</th>
+<th class="py-3 px-space-md">احراز هویت ۲مرحله‌ای</th>
+<th class="py-3 px-space-md">آخرین فعالیت / IP</th>
+<th class="py-3 px-space-md">وضعیت</th>
+<th class="py-3 px-space-md text-center">عملیات</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-low font-body-sm text-body-sm text-on-surface">
+<!-- Row 1: Selected / Highlighted user -->
+<tr class="bg-primary/5 hover:bg-primary/10 transition-colors cursor-pointer group" onclick="selectMember('Sara Radmanesh', 'مدیر ارشد تدارکات نرم‌افزاری', 'تدارکات و بازرگانی')">
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center font-bold text-label-lg shadow-sm">
+                      سر
+                    </div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-label-lg text-label-lg text-on-surface font-bold group-hover:text-primary transition-colors">سارا رادمنش</span>
+<span class="material-symbols-outlined text-secondary text-[16px]" title="هویت تایید شده سازمانی">verified</span>
+</div>
+<span class="text-outline text-label-sm font-label-sm font-mono dir-ltr">s.radmanesh@holding.co</span>
+<span class="text-on-surface-variant text-[11px]">مدیر ارشد تدارکات نرم‌افزاری</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md">
+                    تدارکات و بازرگانی
+                  </span>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="px-2.5 py-1 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-semibold">
+                    مدیر تدارکات (Procurement Admin)
+                  </span>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span class="font-label-sm text-label-sm font-semibold">فعال (FIDO2)</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm">امروز ۱۱:۲۵</span>
+<span class="text-[11px] text-outline font-mono dir-ltr">۱۹۲.۱۶۸.۱۰.۴۵</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                    فعال
+                  </span>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<div class="relative inline-block text-left">
+<button class="p-1.5 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[19px]">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2: Tech Lead -->
+<tr class="hover:bg-surface-container-low transition-colors cursor-pointer group" onclick="selectMember('دکتر کاوه امینی', 'معمار ارشد سیستم و لایسنسینگ', 'فناوری اطلاعات و توسعه')">
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-tertiary text-on-tertiary flex items-center justify-center font-bold text-label-lg shadow-sm">
+                      کا
+                    </div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold group-hover:text-primary transition-colors">کاوه امینی</span>
+<span class="material-symbols-outlined text-secondary text-[16px]">verified</span>
+</div>
+<span class="text-outline text-label-sm font-label-sm font-mono dir-ltr">k.amini@holding.co</span>
+<span class="text-on-surface-variant text-[11px]">معمار ارشد زیرساخت ابری</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md">
+                    فناوری و تحول دیجیتال
+                  </span>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="px-2.5 py-1 rounded-full bg-tertiary/10 text-tertiary font-label-sm text-label-sm font-semibold">
+                    ناظر فنی لایسنس‌ها (Tech Auditor)
+                  </span>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[18px]">phonelink_lock</span>
+<span class="font-label-sm text-label-sm font-semibold">فعال (Authenticator)</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm">دیروز ۱۸:۴۰</span>
+<span class="text-[11px] text-outline font-mono dir-ltr">۱۹۲.۱۶۸.۱۴.۱۲</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                    فعال
+                  </span>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<button class="p-1.5 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[19px]">more_vert</span>
+</button>
+</td>
+</tr>
+<!-- Row 3: Finance Director -->
+<tr class="hover:bg-surface-container-low transition-colors cursor-pointer group" onclick="selectMember('فرزانه کیانی', 'معاون مالی و اعتباری هلدینگ', 'امور مالی و حسابداری')">
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-secondary text-on-secondary flex items-center justify-center font-bold text-label-lg shadow-sm">
+                      فک
+                    </div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold group-hover:text-primary transition-colors">فرزانه کیانی</span>
+<span class="material-symbols-outlined text-secondary text-[16px]">verified</span>
+</div>
+<span class="text-outline text-label-sm font-label-sm font-mono dir-ltr">f.kiani@holding.co</span>
+<span class="text-on-surface-variant text-[11px]">معاون امور مالی و اعتباری</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md">
+                    امور مالی و حسابداری
+                  </span>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="px-2.5 py-1 rounded-full bg-secondary/10 text-secondary font-label-sm text-label-sm font-semibold">
+                    تاییدکننده نهایی پرداخت و Escrow
+                  </span>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span class="font-label-sm text-label-sm font-semibold">فعال (امضای توکن سخت‌افزاری)</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm">امروز ۰۹:۱۵</span>
+<span class="text-[11px] text-outline font-mono dir-ltr">۱۰.۱۰۰.۲۰.۳</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                    فعال
+                  </span>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<button class="p-1.5 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[19px]">more_vert</span>
+</button>
+</td>
+</tr>
+<!-- Row 4: Pending Invitation -->
+<tr class="hover:bg-surface-container-low transition-colors bg-surface-container-low/20">
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-sm opacity-80">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high text-outline flex items-center justify-center font-bold text-label-lg shadow-sm">
+                      نم
+                    </div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">نیما مشیری</span>
+<span class="px-1.5 py-0.2 rounded bg-surface-container text-outline text-[10px]">در انتظار پاسخ</span>
+</div>
+<span class="text-outline text-label-sm font-label-sm font-mono dir-ltr">n.moshiri@supplier-group.ir</span>
+<span class="text-on-surface-variant text-[11px]">کارشناس ارزیابی حقوقی و SLA</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md">
+                    حقوقی و قراردادها
+                  </span>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-semibold">
+                    کارشناس ممیزی قرارداد (Legal Reviewer)
+                  </span>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-1 text-outline">
+<span class="material-symbols-outlined text-[18px]">hourglass_empty</span>
+<span class="font-label-sm text-label-sm">تنظیم در اولین ورود</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="font-label-sm text-label-sm text-outline">هنوز ورود نکرده</span>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container text-outline font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+                    دعوت ارسال‌شده
+                  </span>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<button class="text-primary hover:underline font-label-sm text-label-sm px-2 py-1 rounded hover:bg-primary/5" type="button">
+                    ارسال مجدد
+                  </button>
+</td>
+</tr>
+<!-- Row 5: Suspended Account -->
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-sm opacity-70">
+<div class="w-10 h-10 rounded-xl bg-error-container text-error flex items-center justify-center font-bold text-label-lg shadow-sm">
+                      به
+                    </div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold line-through">بهنام هدایتی</span>
+</div>
+<span class="text-outline text-label-sm font-label-sm font-mono dir-ltr">b.hedayati@holding.co</span>
+<span class="text-on-surface-variant text-[11px]">کارشناس استعلام قیمت</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md">
+                    تدارکات و بازرگانی
+                  </span>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-outline font-label-sm text-label-sm font-semibold">
+                    کارشناس استعلام (RFQ)
+                  </span>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-1.5 text-error">
+<span class="material-symbols-outlined text-[18px]">no_encryption</span>
+<span class="font-label-sm text-label-sm font-semibold">منقضی شده</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm">۲ هفته پیش</span>
+<span class="text-[11px] text-outline font-mono dir-ltr">۵.۲۱۸.۲۳.۱۱</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-error"></span>
+                    تعلیق موقت
+                  </span>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<button class="text-primary hover:underline font-label-sm text-label-sm px-2 py-1 rounded hover:bg-primary/5" type="button">
+                    رفع تعلیق
+                  </button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Pagination Bar -->
+<div class="px-space-md py-space-sm bg-surface-container-lowest flex items-center justify-between">
+<span class="font-label-md text-label-md text-outline">
+            نمایش ۱ تا ۵ از ۲۸ عضو سازمان
+          </span>
+<div class="flex items-center gap-1">
+<button class="p-1 rounded bg-surface-container-low text-on-surface hover:bg-surface-container transition-colors disabled:opacity-40" disabled="">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+<span class="px-3 py-1 rounded bg-primary text-on-primary font-label-sm text-label-sm font-bold">۱</span>
+<button class="px-3 py-1 rounded text-on-surface hover:bg-surface-container-low font-label-sm text-label-sm">۲</button>
+<button class="px-3 py-1 rounded text-on-surface hover:bg-surface-container-low font-label-sm text-label-sm">۳</button>
+<button class="p-1 rounded bg-surface-container-low text-on-surface hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Live RBAC Inspector Drawer (4 Columns) -->
+<div class="xl:col-span-4 bg-surface-container-lowest rounded-xl shadow-sm p-space-md flex flex-col gap-space-md">
+<!-- Inspector Header -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">manage_accounts</span>
+</div>
+<div>
+<h2 class="font-title-md text-title-md text-on-surface">بررسی دسترسی‌های لحظه‌ای (RBAC Matrix)</h2>
+<span class="font-body-sm text-body-sm text-outline">نقش انتخابی: <strong class="text-primary font-semibold" id="insRoleTitle">مدیر تدارکات (Procurement Admin)</strong></span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">
+            مجوزهای فعال
+          </span>
+</div>
+<!-- Target Member Mini-Card -->
+<div class="p-space-sm rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="w-9 h-9 rounded-xl bg-primary text-on-primary flex items-center justify-center font-bold text-label-md" id="insMemberAvatar">
+              سر
+            </div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-bold" id="insMemberName">سارا رادمنش</span>
+<span class="font-body-sm text-body-sm text-outline" id="insMemberDept">تدارکات و بازرگانی</span>
+</div>
+</div>
+<button class="text-primary font-label-sm text-label-sm hover:underline">ویرایش نقش</button>
+</div>
+<!-- Permissions Matrix Breakdown -->
+<div class="flex flex-col gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant font-semibold">
+            سطوح اختیارات در ماژول‌های پلتفرم اکومارکت:
+          </span>
+<!-- Module 1: RFQ & Bidding -->
+<div class="p-space-sm rounded-xl bg-surface-container-low/60 flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5 font-label-lg text-label-lg text-on-surface font-semibold">
+<span class="material-symbols-outlined text-primary text-[19px]">request_quote</span>
+<span>استعلام قیمت سازمانی (RFQ)</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-medium">دسترسی پیشرفته</span>
+</div>
+<div class="grid grid-cols-3 gap-1 pt-1">
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>مشاهده و مقایسه</span>
+</div>
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>ثبت و ارسال مناقصه</span>
+</div>
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-error">
+<span class="material-symbols-outlined text-[16px]">cancel</span>
+<span>تایید بودجه نهایی</span>
+</div>
+</div>
+</div>
+<!-- Module 2: Escrow & Wallet -->
+<div class="p-space-sm rounded-xl bg-surface-container-low/60 flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5 font-label-lg text-label-lg text-on-surface font-semibold">
+<span class="material-symbols-outlined text-secondary text-[19px]">account_balance_wallet</span>
+<span>حساب امانی و پرداخت امن (Escrow)</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-medium">دسترسی متوسط</span>
+</div>
+<div class="grid grid-cols-3 gap-1 pt-1">
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>مشاهده مانده سپرده</span>
+</div>
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>درخواست تسویه گام</span>
+</div>
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-error">
+<span class="material-symbols-outlined text-[16px]">cancel</span>
+<span>استرداد وجه مستقیم</span>
+</div>
+</div>
+</div>
+<!-- Module 3: Contracts & SLA -->
+<div class="p-space-sm rounded-xl bg-surface-container-low/60 flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5 font-label-lg text-label-lg text-on-surface font-semibold">
+<span class="material-symbols-outlined text-tertiary text-[19px]">description</span>
+<span>بررسی فنی و قراردادها</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-medium">کامل</span>
+</div>
+<div class="grid grid-cols-3 gap-1 pt-1">
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>آپلود لایسنس و توکن</span>
+</div>
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>امضای پیش‌نویس SLA</span>
+</div>
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-error">
+<span class="material-symbols-outlined text-[16px]">cancel</span>
+<span>ابطال یک‌طرفه لایسنس</span>
+</div>
+</div>
+</div>
+<!-- Module 4: RBAC & Governance -->
+<div class="p-space-sm rounded-xl bg-surface-container-low/60 flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5 font-label-lg text-label-lg text-on-surface font-semibold">
+<span class="material-symbols-outlined text-outline text-[19px]">admin_panel_settings</span>
+<span>تنظیمات تیم و سطوح دسترسی</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline font-medium">فقط خواندن</span>
+</div>
+<div class="grid grid-cols-3 gap-1 pt-1">
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>مشاهده همکاران</span>
+</div>
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-error">
+<span class="material-symbols-outlined text-[16px]">cancel</span>
+<span>تغییر دسترسی کاربر</span>
+</div>
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-error">
+<span class="material-symbols-outlined text-[16px]">cancel</span>
+<span>ایجاد نقش جدید</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Action Box -->
+<div class="mt-auto p-space-sm rounded-xl bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-outline text-[20px]">policy</span>
+<span class="font-label-sm text-label-sm text-on-surface">اعمال با خط مشی IAM نسخه ۴.۲</span>
+</div>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-sm text-label-sm font-semibold shadow-sm hover:bg-surface-container-low transition-colors">
+            شبیه‌سازی مجوز
+          </button>
+</div>
+</div>
+</div>
+<!-- 6. Enterprise Security & Integration Policy Banner -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg mb-space-lg">
+<div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-lg">
+<div class="flex items-start gap-space-md max-w-3xl">
+<div class="w-12 h-12 rounded-xl bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[28px]">verified</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">پروتکل انطباق سازمانی ISO 27001 و اتصال به هویت‌سنجی متمرکز</h3>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold">Active Directory SSO</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              تمامی تغییرات سطوح دسترسی (RBAC) به صورت آنی در مخزن ممیزی ثبت و با سرور هویت‌سنجی داخلی سازمان (از طریق پروتکل‌های SAML 2.0، LDAP و Okta) همگام‌سازی می‌شود. ممیزی دوره‌ای دسترسی‌ها هر ۹۰ روز یک‌بار به‌صورت خودکار اجرا می‌گردد.
+            </p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm shrink-0">
+<button class="flex items-center gap-space-xs px-space-md py-2.5 rounded-xl bg-surface-container-low text-on-surface font-label-lg text-label-lg hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[19px] text-secondary">hub</span>
+<span>پیکربندی اکتیو دایرکتوری (LDAP)</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-2.5 rounded-xl bg-surface-container-low text-on-surface font-label-lg text-label-lg hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[19px] text-primary">security_update_good</span>
+<span>مشاهده گواهی ممیزی دوره‌ای</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Invitation Modal Drawer (Hidden by default, interactive via JS) -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/40 backdrop-blur-sm flex items-center justify-center hidden p-space-md" id="inviteModal">
+<div class="bg-surface-container-lowest rounded-2xl shadow-xl w-full max-w-lg p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs">
+<div class="w-9 h-9 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">person_add</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">دعوت کاربر جدید به سازمان</span>
+</div>
+<button class="p-1 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container" onclick="closeInviteModal()" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div>
+<label class="font-label-md text-label-md text-on-surface mb-1 block">ایمیل سازمانی کاربر</label>
+<input class="w-full px-space-md py-2.5 bg-surface-container-low rounded-xl text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary/20 dir-ltr text-right" placeholder="e.g. employee@company.com" type="email"/>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div>
+<label class="font-label-md text-label-md text-on-surface mb-1 block">نام و نام خانوادگی</label>
+<input class="w-full px-space-md py-2.5 bg-surface-container-low rounded-xl text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary/20" placeholder="مثال: علی رضایی" type="text"/>
+</div>
+<div>
+<label class="font-label-md text-label-md text-on-surface mb-1 block">شماره پرسنلی</label>
+<input class="w-full px-space-md py-2.5 bg-surface-container-low rounded-xl text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary/20" placeholder="۹۸۴۲۱" type="text"/>
+</div>
+</div>
+<div>
+<label class="font-label-md text-label-md text-on-surface mb-1 block">نقش سازمانی RBAC</label>
+<select class="w-full px-space-md py-2.5 bg-surface-container-low rounded-xl text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary/20">
+<option>کارشناس استعلام قیمت (RFQ Specialist)</option>
+<option>مدیر تدارکات نرم‌افزاری (Procurement Admin)</option>
+<option>تاییدکننده نهایی پرداخت و امور مالی</option>
+<option>ناظر فنی و حقوقی قراردادها</option>
+</select>
+</div>
+<div class="flex items-center gap-space-xs p-space-sm bg-surface-container-low rounded-xl">
+<input checked="" class="w-4 h-4 rounded text-primary focus:ring-primary/20" id="require2fa" type="checkbox"/>
+<label class="font-label-md text-label-md text-on-surface cursor-pointer" for="require2fa">
+            الزام کاربر به فعال‌سازی تایید دو مرحله‌ای (FIDO2 / TOTP) در اولین ورود
+          </label>
+</div>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-xs">
+<button class="px-space-md py-2 rounded-xl text-on-surface font-label-lg text-label-lg hover:bg-surface-container transition-colors" onclick="closeInviteModal()" type="button">
+          انصراف
+        </button>
+<button class="px-space-md py-2 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary/90 transition-colors shadow-sm" onclick="closeInviteModal()" type="button">
+          ارسال دعوت‌نامه رسمی
+        </button>
+</div>
+</div>
+</div>
+<script>
+    // Simple client-side micro-interactions for demo
+    function selectMember(name, role, dept) {
+      const avatarLetters = name.split(' ').map(n => n[0]).join('').substring(0, 2);
+      document.getElementById('insMemberName').innerText = name;
+      document.getElementById('insRoleTitle').innerText = role;
+      document.getElementById('insMemberDept').innerText = dept;
+      document.getElementById('insMemberAvatar').innerText = avatarLetters;
+    }
+
+    const inviteBtn = document.getElementById('btnInviteMember');
+    const inviteModal = document.getElementById('inviteModal');
+
+    if (inviteBtn && inviteModal) {
+      inviteBtn.addEventListener('click', () => {
+        inviteModal.classList.remove('hidden');
+      });
+    }
+
+    function closeInviteModal() {
+      if (inviteModal) {
+        inviteModal.classList.add('hidden');
+      }
+    }
+  </script>
+</div></main></div></body></html>

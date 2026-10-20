@@ -1,0 +1,507 @@
+<!DOCTYPE html><html dir="rtl" lang="fa"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_dashboard" name="shell-type"><title>اکومارکت | کنسول مدیریت سازمانی</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "surface": "#faf8ff",
+          "on-secondary-fixed-variant": "#005049",
+          "on-tertiary-container": "#f7edff",
+          "secondary": "#006a61",
+          "error": "#ba1a1a",
+          "on-tertiary-fixed": "#25005a",
+          "secondary-container": "#86f2e4",
+          "outline-variant": "#c3c6d7",
+          "on-surface": "#131b2e",
+          "inverse-primary": "#b4c5ff",
+          "surface-container": "#eaedff",
+          "on-primary": "#ffffff",
+          "inverse-surface": "#283044",
+          "surface-variant": "#dae2fd",
+          "surface-bright": "#faf8ff",
+          "surface-container-high": "#e2e7ff",
+          "on-primary-container": "#eeefff",
+          "on-surface-variant": "#434655",
+          "on-error-container": "#93000a",
+          "surface-container-highest": "#dae2fd",
+          "surface-container-lowest": "#ffffff",
+          "surface-tint": "#0053db",
+          "on-tertiary": "#ffffff",
+          "error-container": "#ffdad6",
+          "on-secondary-container": "#006f66",
+          "primary-fixed-dim": "#b4c5ff",
+          "surface-dim": "#d2d9f4",
+          "background": "#faf8ff",
+          "tertiary-fixed-dim": "#d2bbff",
+          "secondary-fixed-dim": "#6bd8cb",
+          "primary-container": "#2563eb",
+          "surface-container-low": "#f2f3ff",
+          "primary-fixed": "#dbe1ff",
+          "on-primary-fixed": "#00174b",
+          "on-primary-fixed-variant": "#003ea8",
+          "on-error": "#ffffff",
+          "primary": "#004ac6",
+          "on-background": "#131b2e",
+          "tertiary": "#6a1edb",
+          "on-secondary": "#ffffff",
+          "secondary-fixed": "#89f5e7",
+          "tertiary-container": "#8343f4",
+          "on-secondary-fixed": "#00201d",
+          "inverse-on-surface": "#eef0ff",
+          "on-tertiary-fixed-variant": "#5a00c6",
+          "outline": "#737686",
+          "tertiary-fixed": "#eaddff"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter": "1.5rem",
+          "space-sm": "0.5rem",
+          "margin-sm": "1rem",
+          "gutter-lg": "2rem",
+          "space-xl": "2.5rem",
+          "space-xs": "0.25rem",
+          "margin-lg": "3rem",
+          "gutter-sm": "1rem",
+          "margin": "1.5rem",
+          "space-md": "1rem",
+          "space-lg": "1.5rem",
+          "space-2xl": "4rem"
+        },
+        "fontFamily": {
+          "label-lg": ["Vazirmatn"],
+          "display-hero": ["Vazirmatn"],
+          "title-md": ["Vazirmatn"],
+          "body-sm": ["Vazirmatn"],
+          "body-md": ["Vazirmatn"],
+          "label-sm": ["Vazirmatn"],
+          "headline-sm": ["Vazirmatn"],
+          "body-lg": ["Vazirmatn"],
+          "display-hero-mobile": ["Vazirmatn"],
+          "headline-lg-mobile": ["Vazirmatn"],
+          "headline-lg": ["Vazirmatn"],
+          "numeric-metric": ["Vazirmatn"],
+          "headline-md": ["Vazirmatn"],
+          "label-md": ["Vazirmatn"]
+        },
+        "fontSize": {
+          "label-lg": ["14px", {"lineHeight": "22px", "fontWeight": "600"}],
+          "display-hero": ["40px", {"lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+          "title-md": ["16px", {"lineHeight": "26px", "fontWeight": "600"}],
+          "body-sm": ["12px", {"lineHeight": "20px", "fontWeight": "400"}],
+          "body-md": ["14px", {"lineHeight": "24px", "fontWeight": "400"}],
+          "label-sm": ["11px", {"lineHeight": "16px", "fontWeight": "500"}],
+          "headline-sm": ["18px", {"lineHeight": "30px", "fontWeight": "600"}],
+          "body-lg": ["16px", {"lineHeight": "28px", "fontWeight": "400"}],
+          "display-hero-mobile": ["28px", {"lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "800"}],
+          "headline-lg-mobile": ["22px", {"lineHeight": "36px", "letterSpacing": "0", "fontWeight": "700"}],
+          "headline-lg": ["30px", {"lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+          "numeric-metric": ["24px", {"lineHeight": "34px", "fontWeight": "700"}],
+          "headline-md": ["22px", {"lineHeight": "36px", "fontWeight": "700"}],
+          "label-md": ["12px", {"lineHeight": "18px", "fontWeight": "500"}]
+        }
+      }
+    }
+  }</script></head><body class="bg-surface font-body-md text-body-md text-on-surface"><aside class="fixed right-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between py-space-lg"><div class="flex flex-col gap-space-lg"><div class="px-space-lg flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-lg bg-primary flex items-center justify-center text-on-primary font-headline-sm text-headline-sm font-bold">اکو</div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary font-bold">اکومارکت</span><span class="font-label-sm text-label-sm text-on-surface-variant">سامانه بنگاه‌به‌بنگاه</span></div></div></div><nav class="flex flex-col gap-space-xs px-space-md" data-active-classes="bg-surface-container text-primary font-label-lg text-label-lg rounded-xl"><div class="px-space-md py-space-xs font-label-sm text-label-sm text-outline uppercase tracking-wider">عملیات و مدیریت</div><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="vendor-overview" href="#"><span class="material-symbols-outlined text-[20px]">space_dashboard</span><span class="font-label-lg text-label-lg">داشبورد جامع</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="product-catalog-management" href="#"><span class="material-symbols-outlined text-[20px]">inventory_2</span><span class="font-label-lg text-label-lg">مدیریت راهکارها و API</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="procurement-requests" href="#"><span class="material-symbols-outlined text-[20px]">request_quote</span><span class="font-label-lg text-label-lg">سفارش‌ها و مناقصات</span></a><a aria-current="page" class="flex items-center gap-space-md px-space-md py-space-sm transition-all bg-surface-container text-primary font-label-lg text-label-lg rounded-xl" data-path="contracts-and-licensing" href="#"><span class="material-symbols-outlined text-[20px]">verified_user</span><span class="font-label-lg text-label-lg">قراردادها و مجوزها</span></a><div class="px-space-md pt-space-md pb-space-xs font-label-sm text-label-sm text-outline uppercase tracking-wider">مالی و تحلیلی</div><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="financial-settlement" href="#"><span class="material-symbols-outlined text-[20px]">account_balance_wallet</span><span class="font-label-lg text-label-lg">تسويه و تراکنش‌ها</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="analytics-and-insights" href="#"><span class="material-symbols-outlined text-[20px]">query_stats</span><span class="font-label-lg text-label-lg">گزارش‌های تحلیلی</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="organization-settings" href="#"><span class="material-symbols-outlined text-[20px]">tune</span><span class="font-label-lg text-label-lg">تنظیمات سازمانی</span></a></nav></div><div class="px-space-md"><div class="bg-surface-container-low p-space-md rounded-xl flex items-center gap-space-md"><div class="w-9 h-9 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center font-bold"><span class="material-symbols-outlined text-[20px]">verified</span></div><div class="flex flex-col"><span class="font-label-md text-label-md font-semibold text-on-surface">تاییدیه سطح ۳</span><span class="font-label-sm text-label-sm text-secondary font-medium">تامین‌کننده ارشد ابری</span></div></div></div></aside><div class="pr-72"><header class="fixed top-0 right-72 left-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-gutter"><div class="flex items-center gap-space-md w-96"><div class="w-full h-10 flex items-center bg-surface-container-low px-3 rounded-xl border border-transparent focus-within:border-primary/20 transition-all"><span class="material-symbols-outlined text-outline text-[20px] ml-space-sm">search</span><input class="w-full bg-transparent text-on-surface placeholder:text-outline focus:outline-none font-body-sm text-body-sm" placeholder="جستجو در خدمات، قراردادها یا شناسه‌ها..." type="text"><span class="font-label-sm text-[11px] text-outline px-1.5 py-0.5 rounded bg-surface-container-high">Ctrl+K</span></div></div><div class="flex items-center gap-space-md"><button class="relative p-space-xs rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-error"></span></button><button class="p-space-xs rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">headset_mic</span></button><div class="h-6 w-px bg-surface-container-high"></div><div class="flex items-center gap-space-sm"><div class="flex flex-col items-end"><span class="font-label-md text-label-md text-on-surface">شرکت رایانش ابری پیشرو</span><span class="font-label-sm text-label-sm text-outline">کد ثبت: ۹۴۰۲۱</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="relative pt-16 w-full bg-surface px-gutter py-space-lg"><div class="flex flex-col w-full">
+<!-- Internal Buyer Context Banner & Breadcrumb Area -->
+<div class="flex flex-col gap-space-sm mb-space-lg">
+<!-- Breadcrumb & Top Indicator -->
+<div class="flex items-center justify-between flex-wrap gap-space-sm">
+<div class="flex items-center gap-space-xs text-outline font-label-md text-label-md">
+<a class="hover:text-primary transition-colors" href="#">میز مدیریت تدارکات</a>
+<span class="material-symbols-outlined text-[16px]">chevron_left</span>
+<span class="text-on-surface font-label-lg text-label-lg">قراردادها و لایسنس‌های سازمانی</span>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-container-high px-space-md py-space-xs rounded-full">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">پرتال تضمین و اعتبارسنجی خریدار — صنایع پیشرو پارس</span>
+</div>
+</div>
+<!-- Main Header Bar -->
+<div class="flex items-start justify-between flex-wrap gap-space-md pt-space-xs">
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<h1 class="font-headline-lg text-headline-lg text-on-surface font-extrabold tracking-tight">
+          مدیریت قراردادها، لایسنس‌ها و وجوه امانی (Escrow &amp; Licensing)
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          نظارت متمرکز بر فعال‌سازی لایسنس‌ها، ضمانت حسن انجام کار و مبالغ سپرده امانی تا پایان ارزیابی فنی و آزمایشی SLA با ضوابط حقوقی معتبر.
+        </p>
+</div>
+<!-- Header CTAs -->
+<div class="flex items-center gap-space-sm self-end sm:self-auto flex-wrap"><button class="h-10 flex items-center gap-2 bg-surface-container-lowest text-on-surface px-4 rounded-xl shadow-sm hover:bg-surface-container transition-all font-label-md text-label-md border border-surface-container-high" type="button"><span class="material-symbols-outlined text-[18px] text-outline">file_download</span><span class="">دانلود گزارش ممیزی و مالیات (اکسل)</span></button><button class="h-10 flex items-center gap-2 bg-primary text-on-primary px-4 rounded-xl shadow-sm hover:bg-primary-container transition-all font-label-md text-label-md font-semibold" type="button"><span class="material-symbols-outlined text-[18px]">add_circle</span><span class="">+ ثبت قرارداد جدید با وندور</span></button></div>
+</div>
+</div>
+<!-- KPI Summary 4-Grid Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md mb-space-xl">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute left-0 top-0 w-1.5 h-full bg-primary"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-outline">قراردادهای جاری و فعال</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">verified_user</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-numeric-metric text-numeric-metric text-on-surface">۷</span>
+<span class="font-label-lg text-label-lg text-on-surface">قرارداد شرکتی</span>
+</div>
+<div class="mt-space-xs flex items-center gap-space-xs text-outline font-label-sm text-label-sm">
+<span class="">۴ لایسنس سالانه</span>
+<span class="">•</span>
+<span class="">۳ اشتراک SaaS ابری</span>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute left-0 top-0 w-1.5 h-full bg-secondary"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-outline">وجوه امانی محافظت‌شده (Escrow)</span>
+<div class="w-9 h-9 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">shield_lock</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-numeric-metric text-numeric-metric text-on-surface">۲۸۵,۰۰۰,۰۰۰</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">تومان</span>
+</div>
+<p class="mt-space-xs font-label-sm text-label-sm text-secondary font-medium">
+          سپرده تا تایید دوره‌های آزمایشی و تست نفوذ
+        </p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute left-0 top-0 w-1.5 h-full bg-tertiary"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-outline">در آستانه انقضا و تمدید</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container-high text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">update</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-numeric-metric text-numeric-metric text-on-surface">۲</span>
+<span class="font-label-lg text-label-lg text-on-surface">لایسنس سازمانی</span>
+</div>
+<p class="mt-space-xs font-label-sm text-label-sm text-on-surface-variant">
+          مهلت کمتر از ۳۰ روز (با تخفیف ویژه تمدید زودهنگام)
+        </p>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute left-0 top-0 w-1.5 h-full bg-surface-tint"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-outline">میانگین رعایت SLA تامین‌کنندگان</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">network_check</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-numeric-metric text-numeric-metric text-on-surface">۹۹.۸۲٪</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">پایدار</span>
+</div>
+<p class="mt-space-xs font-label-sm text-label-sm text-outline">
+          میانگین پاسخگویی تیکت کمتر از ۱.۸ ساعت
+        </p>
+</div>
+</div>
+</div>
+<!-- Main Workflow Layout (Split 9 / 3 on desktop) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Right/Center Content Column (Contracts & Milestones) -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<!-- Interactive Sub-Tabs -->
+<div class="flex items-center gap-space-xs p-1 bg-surface-container-high rounded-xl overflow-x-auto"><button class="h-9 px-4 rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md shadow-sm flex items-center gap-2 whitespace-nowrap transition-all font-semibold" type="button"><span class="">قراردادهای در حال اجرا و لایسنس‌ها</span><span class="px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-xs">۷</span></button><button class="h-9 px-4 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-label-md text-label-md flex items-center gap-2 whitespace-nowrap transition-colors" type="button"><span class="">وجوه امانی و آزادسازی مرحله‌ای (Milestones)</span><span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-outline font-label-sm text-xs">۳</span></button><button class="h-9 px-4 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-label-md text-label-md flex items-center gap-2 whitespace-nowrap transition-colors" type="button"><span class="">تاریخچه قراردادهای خاتمه‌یافته</span><span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-outline font-label-sm text-xs">۱۲</span></button><button class="h-9 px-4 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-label-md text-label-md flex items-center gap-2 whitespace-nowrap transition-colors" type="button"><span class="">درخواست‌های داوری و نقض تعهد (Disputes)</span><span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-outline font-label-sm text-xs">۰</span></button></div>
+<!-- CONTRACT CARD 1: KarJoor Workforce Management -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col gap-space-md hover:shadow-md transition-shadow">
+<!-- Top Row: Title, Vendor, Status -->
+<div class="flex items-start justify-between flex-wrap gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-14 h-14 rounded-xl bg-surface-container-low flex items-center justify-center p-2 shadow-sm overflow-hidden">
+<img class="w-full h-full object-contain" data-alt="Minimalist enterprise software logo for KarJoor workforce shift management platform, clean modern geometric symbol in cool navy and teal accents on crisp white backdrop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjq1UkfHmx6pdmRurvwxY7ddK1PAYpnmDGQoFHrIY9gkCibi92NHaX2V2W__MLiap23I75QZjJdUKawhAeozN4rUSLe-7NCwM1HkMdIzBWCKXoMLxNj48eRDzr9WcVRTnts2P3bn6-GvPt_yDFDBAn1kvR3GdEUBu-adLEdSA0E-JfRPNdaf3edpp23hOOchEPvc1C15VqcOyGAy2YhfkyOTsV-jZYbC_hk731J4lF9i4DMeAIGs1c">
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">سامانه مدیریت شیفت و کارگری «کارجور» (KarJoor)</h3>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">نسخه On-Premise Enterprise</span>
+</div>
+<div class="flex items-center gap-space-sm text-outline font-body-sm text-body-sm mt-0.5">
+<span class="">تامین‌کننده: گروه توسعه فناوری کارجور (دانش‌بنیان صنعتی)</span>
+<span class="">•</span>
+<span class="">شماره قرارداد: CTR-1403-4921</span>
+<span class="">•</span>
+<span class="">اعتبار: ۱۵ فروردین ۱۴۰۳ تا ۱۵ فروردین ۱۴۰۴</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container/40 text-on-secondary-fixed-variant font-label-sm text-label-sm font-semibold">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+              فعال و عملیاتی
+            </span>
+</div>
+</div>
+<!-- Specifications & License Key Info Box -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col md:flex-row items-stretch justify-between gap-space-md">
+<div class="flex flex-col justify-center gap-1">
+<span class="font-label-sm text-label-sm text-outline">کلید اختصاصی فعال‌سازی (License Key):</span>
+<div class="flex items-center gap-space-xs">
+<code class="bg-surface-container-lowest px-space-sm py-1 rounded text-primary font-bold font-mono text-[13px] tracking-wide select-all">
+                EK-KJ-9842-ENTERPRISE-PROD-2024
+              </code>
+<button class="px-space-sm py-1 rounded bg-surface-container-highest text-on-surface font-label-sm text-label-sm hover:bg-surface-container transition-all" onclick="navigator.clipboard.writeText('EK-KJ-9842-ENTERPRISE-PROD-2024'); this.innerText='کپی شد!';" type="button">
+                کپی کلید
+              </button>
+</div>
+</div>
+<div class="flex items-center gap-space-lg flex-wrap">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">حجم لایسنس مجاز</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">۵۰۰ کاربر همزمان</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">شاخص سلامت اتصال و SLA</span>
+<div class="flex items-center gap-1 text-secondary font-bold font-title-md text-title-md">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="">۹۹.۹٪ (بدون خطا)</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">محیط استقرار</span>
+<span class="font-label-lg text-label-lg text-on-surface font-medium">سرور داخلی شرکت + تست</span>
+</div>
+</div>
+</div>
+<!-- Escrow Protection Milestone Status Bar -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-on-surface font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">account_balance_wallet</span>
+              وضعیت تسویه مالی امانی (Escrow Protection):
+            </span>
+<span class="text-outline">
+              مبلغ کل: ۱۴۴,۰۰۰,۰۰۰ ریال | ۸۰٪ آزاد شده (۱۱۵,۲۰۰,۰۰۰ ریال)
+            </span>
+</div>
+<!-- Dual Progress Bar -->
+<div class="w-full h-3 bg-surface-container-high rounded-full overflow-hidden flex">
+<div class="h-full bg-secondary" style="width: 80%;" title="۸۰٪ تحویل و تایید نهایی"></div>
+<div class="h-full bg-secondary-fixed-dim" style="width: 20%;" title="۲۰٪ باقی‌مانده امانی"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span class="">مرحله ۱ و ۲: نصب، راه‌اندازی و آموزش سازمانی (تایید شد)</span>
+<span class="text-primary font-semibold">۲۰٪ نزد حساب امانی اکومارکت (پایان تست ۲ ماهه)</span>
+</div>
+</div>
+<!-- Action Row -->
+<div class="flex items-center justify-between flex-wrap gap-space-sm pt-space-xs"><div class="flex items-center gap-2 flex-wrap"><button class="h-9 text-primary hover:bg-surface-container px-3 rounded-lg font-label-sm text-label-sm flex items-center gap-1.5 transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">description</span><span class="">مشاهده متن قرارداد و امضای دیجیتال</span></button><button class="h-9 text-on-surface-variant hover:bg-surface-container px-3 rounded-lg font-label-sm text-label-sm flex items-center gap-1.5 transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">key</span><span class="">دریافت فایل کلید (JSON / PEM)</span></button></div><div class="flex items-center gap-2 flex-wrap"><button class="h-9 bg-surface-container-high text-on-surface-variant px-4 rounded-xl font-label-sm text-label-sm hover:bg-surface-container transition-colors flex items-center gap-1.5 font-medium" type="button"><span class="material-symbols-outlined text-[16px]">support_agent</span><span class="">درخواست پشتیبانی فوری</span></button><button class="h-9 bg-secondary text-on-secondary px-4 rounded-xl font-label-sm text-label-sm hover:bg-on-secondary-fixed-variant transition-colors flex items-center gap-1.5 font-semibold shadow-sm" type="button"><span class="material-symbols-outlined text-[16px]">task_alt</span><span class="">آزادسازی مبلغ نهایی امانی (۲۰٪)</span></button></div></div>
+</div>
+<!-- CONTRACT CARD 2: HooCall Enterprise AI Assistant -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col gap-space-md hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between flex-wrap gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-14 h-14 rounded-xl bg-surface-container-low flex items-center justify-center p-2 shadow-sm overflow-hidden">
+<img class="w-full h-full object-contain" data-alt="High-tech enterprise neural intelligence icon with soft purple and electric blue gradients, representational HooCall AI speech processing suite for corporate telephony." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYsxla_r_ipqhKSgF3_GTfGCA6nIQ3MjUV1NH0FAn0JUHnNBYw6_BL_6TDJiB0v0KdQOvgmEKAVBfXY7pS-Vl05y9wGTB241y91SmvhnMgGGpyRcJnJ69bGGHM7tbY5tprR7uBHEd0-TOQa_QZDYmtCyzWb8PmUj9G07kvlwQh_VSW5to0lRObRIZ063DVuTcwPwjBirZs7PlUh_NXzs6__h9T8KFH1303XGAMnteslLVoFX5XrrF0">
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">دستیار صوتی و پردازش متن «هوکال AI» (HooCall Enterprise)</h3>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-tertiary font-label-sm text-label-sm">سرویس پردازش ابری هیبریدی</span>
+</div>
+<div class="flex items-center gap-space-sm text-outline font-body-sm text-body-sm mt-0.5">
+<span class="">تامین‌کننده: فناوران هوش مصنوعی نوین پارس</span>
+<span class="">•</span>
+<span class="">شماره قرارداد: CTR-1403-3810</span>
+<span class="">•</span>
+<span class="">اعتبار: ۱ اسفند ۱۴۰۲ تا ۱ اسفند ۱۴۰۳</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-tertiary/10 text-tertiary font-label-sm text-label-sm font-semibold">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+              تسویه کامل و گارانتی فعال
+            </span>
+</div>
+</div>
+<!-- Metric Bars & Token Consumption -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-outline">حجم توکن ماهانه اختصاص‌یافته</span>
+<div class="flex items-baseline justify-between">
+<span class="font-title-md text-title-md text-on-surface font-bold">۸۵۰,۰۰۰ / ۱,۰۰۰,۰۰۰</span>
+<span class="font-label-sm text-label-sm text-tertiary font-semibold">۸۵٪ مصرف</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-highest rounded-full overflow-hidden mt-1">
+<div class="h-full bg-tertiary" style="width: 85%;"></div>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col justify-center">
+<span class="font-label-sm text-label-sm text-outline">زیرساخت پردازشگر اختصاصی</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">۲ سرور GPU شتاب‌یافته ابری</span>
+<span class="font-label-sm text-label-sm text-outline">میزبانی دیتاسنتر افرانت تهران</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col justify-center">
+<span class="font-label-sm text-label-sm text-outline">وضعیت حساب امانی و تضمین</span>
+<span class="font-title-md text-title-md text-secondary font-bold">۱۰۰٪ آزاد شده به وندور</span>
+<span class="font-label-sm text-label-sm text-outline">پایان دوره تست و تضمین ۳ ماهه</span>
+</div>
+</div>
+<div class="flex items-center justify-between flex-wrap gap-space-sm pt-space-xs"><div class="flex items-center gap-2 flex-wrap"><button class="h-9 text-primary hover:bg-surface-container px-3 rounded-lg font-label-sm text-label-sm flex items-center gap-1.5 transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">api</span><span class="">مدیریت توکن‌ها و کلیدهای ارتباطی API</span></button><button class="h-9 text-on-surface-variant hover:bg-surface-container px-3 rounded-lg font-label-sm text-label-sm flex items-center gap-1.5 transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">verified</span><span class="">گواهینامه رعایت حریم خصوصی داده</span></button></div><button class="h-9 bg-primary text-on-primary px-4 rounded-xl font-label-sm text-label-sm hover:bg-primary-container transition-colors flex items-center gap-1.5 font-semibold shadow-sm" type="button"><span class="material-symbols-outlined text-[16px]">upgrade</span><span class="">ارتقای پلن مصرف و خرید بسته‌های توکن</span></button></div>
+</div>
+<!-- CONTRACT CARD 3: Trida MT5 Dedicated Algorithmic Engine -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col gap-space-md hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex items-start justify-between flex-wrap gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-14 h-14 rounded-xl bg-surface-container-low flex items-center justify-center p-2 shadow-sm overflow-hidden">
+<img class="w-full h-full object-contain" data-alt="Cryptographic and quantitative financial trading dashboard symbol for Trida Algorithmic MT5 system, sleek minimalist fintech branding in cyan and slate." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVxXLg6xjHijYaOCbbg7leHxT46b0vDl3GUN1TF6Tp7or6GIiJ-Qi6k1N4YqgjhjK58PhlZGEvG3pI6VWE24XkdkdKOiqEq5k16cbEGhCgCPaPEa5Iwa2H97ifPHSFrBKABQlaWLJ29OMeL6tWHM3h7UDl6EoW5k7AoTmV3HPEk4KHknZABHmtiVC1RtWLD1IJubo1HYS2u5F-mnOu3lq6siG1wtwIszUOR3no1PBXyaHQOh6VSZOJ">
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">پلتفرم الگوریتمیک و ترید «تریدا» (Trida MT5 Dedicated)</h3>
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold">فاز پایلوت و آزمایشی</span>
+</div>
+<div class="flex items-center gap-space-sm text-outline font-body-sm text-body-sm mt-0.5">
+<span class="">تامین‌کننده: آزمایشگاه هوش مالی آریاترید</span>
+<span class="">•</span>
+<span class="">شماره پرونده: CTR-1403-5104</span>
+<span class="">•</span>
+<span class="">مهلت استقرار نهایی: تا ۱۰ اردیبهشت ۱۴۰۳</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs bg-error-container/40 text-error px-3 py-1 rounded-full font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px] animate-spin">hourglass_empty</span>
+<span class="">۷ روز باقیمانده تا تایید خودکار</span>
+</div>
+</div>
+<!-- Pilot Testing & Security Holding Alert Box -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-surface-container-high text-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">lock_clock</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">مبلغ پیش‌پرداخت امانی: ۵۰,۰۰۰,۰۰۰ تومان</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                وجه در حساب واسط اکومارکت مسدود است. پس از تایید گزارش تست نفوذ و پایداری لایسنس توسط تیم فنی صنایع پارس، وجه به وندور منتقل می‌شود.
+              </p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm flex-shrink-0"><button class="h-9 bg-error-container text-on-error-container px-4 rounded-xl font-label-sm text-label-sm hover:bg-error/20 transition-colors flex items-center gap-1.5 font-semibold" type="button"><span class="material-symbols-outlined text-[16px]">report_problem</span><span class="">ثبت نقض تعهد و توقف آزادسازی</span></button><button class="h-9 bg-secondary text-on-secondary px-4 rounded-xl font-label-sm text-label-sm hover:bg-on-secondary-fixed-variant transition-colors flex items-center gap-1.5 font-semibold shadow-sm" type="button"><span class="material-symbols-outlined text-[16px]">check_circle</span><span class="">تایید تست فنی و صدور مجوز پرداخت</span></button></div>
+</div>
+</div>
+</div>
+<!-- Left Sticky Sidebar Column (Escrow Safety Architecture & Procurement Tools) -->
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<!-- Buyer Protection Core Card -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col gap-space-md relative overflow-hidden">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">gavel</span>
+</div>
+<div class="flex flex-col">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">مکانیزم حفاظت مالی خریدار</h4>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">اکومارکت اِسکرو (EchoMarket Escrow)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          تمام قراردادهای منعقد شده در اکومارکت تحت نظارت سپرده‌گذاری امن بانکی انجام می‌شوند. مبالغ پیش‌پرداخت و اقساط شما تا صدور تاییدیه فنی نهایی لایسنس، بدون ریسک در صندوق امانی محفوظ می‌مانند.
+        </p>
+<!-- Protection Highlights List -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">verified</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">تضمین انطباق ۱۰۰٪ با SLA</span>
+<span class="font-body-sm text-body-sm text-outline">در صورت قطعی وب‌سرویس یا عدم تطابق با نسخه، جریمه روزانه خودکار کسر می‌گردد.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">balance</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">داوری بی‌طرف حقوقی-فنی</span>
+<span class="font-body-sm text-body-sm text-outline">رسیدگی به تناقضات نرم‌افزاری ظرف حداکثر ۴۸ ساعت کاری توسط هیئت ممیزی.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary mt-0.5">policy</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">استرداد وجه در صورت شکست پایلوت</span>
+<span class="font-body-sm text-body-sm text-outline">عودت کامل اصل مبالغ واریزی در صورت عدم پاس شدن چک‌لیست‌های امنیتی سازمان.</span>
+</div>
+</div>
+</div>
+<!-- Inline SVG Visualization: Trust & Release Architecture -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-xs mt-space-xs">
+<span class="font-label-sm text-label-sm text-outline">فلوچارت حفاظت مرحله‌ای لایسنس</span>
+<svg class="w-full text-primary" fill="none" viewBox="0 0 320 70" xmlns="http://www.w3.org/2000/svg">
+<!-- Step 1 -->
+<rect class="fill-surface-container-highest" height="40" rx="8" width="80" x="5" y="15"></rect>
+<text class="fill-on-surface font-label-sm text-[10px] font-bold" text-anchor="middle" x="45" y="38">واریز به امانی</text>
+<!-- Arrow 1 -->
+<path d="M92 35 H108" stroke="currentColor" stroke-dasharray="2 2" stroke-linecap="round" stroke-width="2"></path>
+<!-- Step 2 -->
+<rect class="fill-surface-container-highest" height="40" rx="8" width="90" x="115" y="15"></rect>
+<text class="fill-on-surface font-label-sm text-[10px] font-bold" text-anchor="middle" x="160" y="38">تحویل و تست SLA</text>
+<!-- Arrow 2 -->
+<path d="M212 35 H228" stroke="currentColor" stroke-dasharray="2 2" stroke-linecap="round" stroke-width="2"></path>
+<!-- Step 3 -->
+<rect class="fill-secondary-container" height="40" rx="8" width="80" x="235" y="15"></rect>
+<text class="fill-on-secondary-container font-label-sm text-[10px] font-bold" text-anchor="middle" x="275" y="38">تسویه با وندور</text>
+</svg>
+</div>
+</div>
+<!-- Quick Action Procurement Widget -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-md flex flex-col gap-space-sm">
+<h4 class="font-title-md text-title-md text-on-surface font-bold">ابزارهای ممیزی و بازرسی لایسنس</h4>
+<div class="flex flex-col gap-space-xs">
+<a class="flex items-center justify-between p-space-sm rounded-lg hover:bg-surface-container transition-colors" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px] text-primary">download_for_offline</span>
+<span class="font-label-md text-label-md text-on-surface">دانلود کلیدهای رمزنگاری شده</span>
+</div>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_left</span>
+</a>
+<a class="flex items-center justify-between p-space-sm rounded-lg hover:bg-surface-container transition-colors" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px] text-primary">fact_check</span>
+<span class="font-label-md text-label-md text-on-surface">چک‌لیست تحویل آزمایشی نرم‌افزار</span>
+</div>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_left</span>
+</a>
+<a class="flex items-center justify-between p-space-sm rounded-lg hover:bg-surface-container transition-colors" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px] text-primary">receipt_long</span>
+<span class="font-label-md text-label-md text-on-surface">صورت‌حساب‌های رسمی سامانه مودیان</span>
+</div>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_left</span>
+</a>
+</div>
+</div>
+<!-- Dedicated Dedicated Escrow Manager Card -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-highest flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Portrait of an Iranian professional procurement legal manager in corporate business attire, clean neutral background, sharp photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMvhXds-dQY2VvgIZajK6uJlsXpR_M0tZvqeUOvcchk5jne3ZUyk3w2Z8Ow0XySqnB1ou_6TBvUcViY7f9AcOkhuFL0YjquOwYg7RzDfuWw2bUQzyyyBn7Q6K_ZJQGeziem1FZUK5hWlZnAZ_0McaGRsxUXtH4FU4723mljIkQar956kE0cfkdGmzseQmXo4fSgq0LrxLwmQOXfkFhbmJIv3yZSCUIAMmwJcwKYvdKXFU89ctjlsAJ">
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">ناظر حقوقی و مالی اختصاصی شما</span>
+<span class="font-label-lg text-label-lg text-on-surface font-bold">مهندس رامین صدری</span>
+<span class="font-body-sm text-body-sm text-secondary font-medium">دفتر مدیریت حقوقی اکومارکت (داخلی ۴۰۲)</span>
+</div>
+</div>
+</div>
+</div>
+</div></main></div>
+
+</body></html>
